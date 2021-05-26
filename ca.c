@@ -4,10 +4,10 @@
 #include <stdlib.h>
 
 int main()
-{
-     char ch[100];
-        gets(ch,100,stdin);
-   printf("%s",ch);
+{    char ch[100];
+    gets(ch,100,stdin);
+    printf("Hello, World!\n");
+    printf("%s",ch);
 
     return 0;
 }
